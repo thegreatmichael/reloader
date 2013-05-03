@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails',     github: 'rails/rails', branch: 'master'
 gem 'journey',   github: 'rails/journey'
 gem 'arel',      github: 'rails/arel'
-gem 'active_record_deprecated_finders', github: 'rails/active_record_deprecated_finders'
+gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
 
 gem 'sqlite3'
 gem 'puma'

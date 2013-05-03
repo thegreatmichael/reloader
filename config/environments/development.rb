@@ -39,5 +39,5 @@ Reloader::Application.configure do
   config.assets.debug = true
 
   # In development, use an in-memory queue for queueing
-  config.queue = Rails::Queueing::Queue
+  # config.queue = Rails::Queueing::Queue
 end

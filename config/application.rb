@@ -49,7 +49,7 @@ module Reloader
     # Specifies whether or not has_many or has_one association option :dependent => :restrict raises
     # an exception. If set to true, then an ActiveRecord::DeleteRestrictionError exception would be
     # raised. If set to false, then an error will be added on the model instead.
-    config.active_record.dependent_restrict_raises = false
+    # config.active_record.dependent_restrict_raises = false
 
     # Enable the asset pipeline.
     config.assets.enabled = true
